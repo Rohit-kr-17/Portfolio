@@ -1,20 +1,18 @@
 import React from "react";
-
+import Logoimage from "../assets/WhatsApp Image 2022-04-15 at 2.47.37 PM.jpeg";
 function About() {
 	return (
-		<div
-			className="h-screen bg-slate-300 flex flex-col justify-center items-center"
-			id="about"
-		>
-			<h2 className="underline text-lg">Who Am I??</h2>
-			<div className="flex flex-row items-center justify-center">
-				<div className="w-[45vh] mt-[5rem]">
+		<div className="h-auto bg-slate-300 flex flex-col items-center" id="about">
+			<h2 className="underline text-[72px] mt-10">Who Am I??</h2>
+			<div className="flex flex-col md:flex-row items-center justify-center mb-10">
+				<div className="">
 					<img
-						src="https://pbs.twimg.com/media/Fwp_EXYaEAMz0Rs?format=jpg&name=small"
+						className="w-auto h-[25rem] md:w-auto md: mt-[5rem]"
+						src={Logoimage}
 						alt="asdsd"
 					/>
 				</div>
-				<div className="pt-[10%] w-[50vh] pl-5">
+				<div className="pt-[10%] w-[50vh] md:w-[50%] pl-5">
 					I am Rohit Kumar Chaurasia a prefinal year student at RVS College of
 					Engineering and Technology, Jamshedpur, majoring in Bachelors in
 					Computer Science and Technology. I am a Full stack Developer and
