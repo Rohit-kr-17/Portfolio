@@ -2,7 +2,7 @@
 import { Link } from "react-scroll";
 export default function Header() {
 	return (
-		<div className=" top-0 fixed flex flex-row justify-between items-center w-full  bg-gray-300  py-[10px] text-black shadow-md shadow-gray-500">
+		<div className=" top-0 fixed flex flex-row justify-between items-center w-full  bg-gray-300  py-[10px] text-black shadow-md shadow-gray-500 z-10">
 			<div class="ml-8">
 				<Link
 					activeClass="active"
@@ -20,6 +20,7 @@ export default function Header() {
 				<div className="py-1 px-3 hover:bg-slate-400 hover:rounded-full cursor-pointer">
 					<Link
 						activeClass="active"
+						offset={-50}
 						to="about"
 						spy={true}
 						smooth={true}
