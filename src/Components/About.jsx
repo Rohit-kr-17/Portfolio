@@ -51,10 +51,10 @@ function About() {
 							coding enthusiast with knowledge of C++, Javascript, NodeJs,
 							ReactJs and ExpressJs.I have interned at Shikarthy Infotech as a
 							FullStack Developer in the summer of 2023. I have created several
-							projects such as Weather App, Realtor Clone, Project Portal and
-							Tesla Clone. I am keen to learning new skills and technologies to
-							improve my Web Development and problem solving abilities.You can
-							reach me at{" "}
+							projects such as Ecommerce Website, Weather App, Realtor Clone,
+							Blog Portal and Tesla Clone. I am keen to learning new skills and
+							technologies to improve my Web Development and problem solving
+							abilities.You can reach me at{" "}
 							<a
 								className=" text-slate-950 font-bold hover:text-red-400"
 								href="mailto:rohit.2001.chaurasia@gmail.com"
