@@ -14,3 +14,7 @@ span {
 
 	font-family: "Alfa Slab One";
 }
+.rotate3D {
+	transition-delay: 1000ms;
+	transform: rotate3d(0, 1, 0, 3.142rad);
+}

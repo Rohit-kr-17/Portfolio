@@ -6,7 +6,6 @@ const PreLoader = () => {
 	const [height, setHeight] = useState("100vh");
 	useEffect(() => {
 		const interval = setInterval(() => {
-			setOpacity(opacity - 1);
 			setHeight(0);
 		}, 1000);
 		const loadingFalse = setInterval(() => {
@@ -20,13 +19,13 @@ const PreLoader = () => {
 	if (isLoading) {
 		return (
 			<div
-				style={{ opacity, height }}
+				style={{ height }}
 				className="bg-black h-screen w-screen top-0 fixed transition-all ease-in-out duration-500 z-[55]"
 			>
-				<div className=" flex justify-center h-screen w-screen items-center ">
+				<div className=" flex fixed first-line justify-center h-screen w-screen items-center ">
 					<img
 						src={logo}
-						className=" h-[30%]  transition-all duration-500 w-auto"
+						className=" h-[30%] relative rotate3D transition-all duration-500 w-auto"
 						alt=""
 					/>
 				</div>

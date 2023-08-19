@@ -2,7 +2,7 @@ import { motion, useInView, useAnimation } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 import img1 from "../assets/Realtor-Clone-React.png";
 import img2 from "../assets/WeatherJS.png";
-import img3 from "../assets/Project-Portal-Home.png";
+import img3 from "../assets/Blog-Portal-Home.png";
 import img4 from "../assets/Tesla-UI-Clone.png";
 import { AiFillGithub } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
@@ -98,15 +98,22 @@ function Projects() {
 					}}
 				>
 					<div className="flex flex-col items-center justify-center h-full w-full p-[2rem] opacity-0 bg-slate-500 bg-opacity-40 hover:opacity-100 transition-all ease-in-out duration-300  ">
-						<h2 className="text-[#fff] font-bold text-[2rem] ">
-							Project Portal
-						</h2>
+						<h2 className="text-[#fff] font-bold text-[2rem] ">Blog Portal</h2>
 						<a
-							href="https://github.com/Rohit-kr-17/Rvscet-Project-Portal"
+							href="https://github.com/Rohit-kr-17/Blog-App"
 							target="_blank"
 							className="border flex justify-center w-fit p-1 rounded-md hover:bg-red-400 hover:border-red-400 items-center transition-all ease-out duration-300 bg-white hover:text-white text-center"
 						>
 							<AiFillGithub className="" /> GitHub Repository
+						</a>
+						<a
+							href="https://weak-pink-beaver-shoe.cyclic.cloud/"
+							target="_blank"
+							alt=""
+							className="border flex justify-center w-fit p-1 rounded-md hover:bg-red-400 mt-2 hover:border-red-400 items-center transition-all ease-out duration-300 bg-white hover:text-white text-center"
+						>
+							{" "}
+							<BiLinkExternal className="" /> View Project
 						</a>
 					</div>
 				</div>
