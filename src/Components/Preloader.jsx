@@ -25,7 +25,7 @@ const PreLoader = () => {
 				<div className=" flex fixed first-line justify-center h-screen w-screen items-center ">
 					<img
 						src={logo}
-						className=" h-[30%] relative rotate3D transition-all duration-500 w-auto"
+						className=" h-[30%] relative  transition-all duration-500 w-auto"
 						alt=""
 					/>
 				</div>
