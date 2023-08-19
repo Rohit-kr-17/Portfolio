@@ -81,7 +81,7 @@ function Projects() {
 							<AiFillGithub className="" /> GitHub Repository
 						</a>
 						<a
-							href="weather-app-002.netlify.app/"
+							href="https://weather-app-002.netlify.app/"
 							target="_blank"
 							alt=""
 							className="border flex justify-center w-fit p-1 rounded-md hover:bg-red-400 mt-2 hover:border-red-400 items-center transition-all ease-out duration-300 bg-white hover:text-white text-center"
