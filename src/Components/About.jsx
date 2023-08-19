@@ -64,7 +64,7 @@ function About() {
 							</a>
 						</div>
 						<a
-							href="https://drive.google.com/file/d/1VXJqdxGB6lMQDvepZmsNx0txefq1GBq6/view?usp=drive_link"
+							href="https://drive.google.com/file/d/1-MUsCst7spjxf6ipNZUoKx5ZiYR9reQv/view?usp=drive_link"
 							target="_blank"
 							alt=""
 							className="border flex justify-center w-fit p-1 animate-bounce mt-5 hover:bg-red-400 mt-2 bg-black text-white hover:border-red-400 items-center transition-all ease-out duration-300 hover:text-white text-center"
