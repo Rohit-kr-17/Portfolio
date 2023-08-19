@@ -45,14 +45,16 @@ function About() {
 
 					<div className="pt-5 flex items-center justify-center flex-col w-[50vh] md:w-[50%] md:ml-5 pl-5">
 						<div className="">
-							I am Rohit Kumar Chaurasia a prefinal year student at RVS College
-							of Engineering and Technology, Jamshedpur, majoring in Bachelors
-							in Computer Science and Technology. I am a Full stack Developer
-							and coding enthusiast with knowledge of C++, Javascript, NodeJs,
-							ReactJs and ExpressJs. I have created several projects such as
-							Weather App, Realtor Clone, Project Portal and Tesla Clone. I am
-							keen to learning new skills and technologies to improve my Web
-							Development and problem solving abilities.You can reach me at{" "}
+							I am Rohit Kumar Chaurasia a final year student at RVS College of
+							Engineering and Technology, Jamshedpur, majoring in Bachelors in
+							Computer Science and Technology. I am a Full stack Developer and
+							coding enthusiast with knowledge of C++, Javascript, NodeJs,
+							ReactJs and ExpressJs.I have interned at Shikarthy Infotech as a
+							FullStack Developer in the summer of 2023. I have created several
+							projects such as Weather App, Realtor Clone, Project Portal and
+							Tesla Clone. I am keen to learning new skills and technologies to
+							improve my Web Development and problem solving abilities.You can
+							reach me at{" "}
 							<a
 								className=" text-slate-950 font-bold hover:text-red-400"
 								href="mailto:rohit.2001.chaurasia@gmail.com"
