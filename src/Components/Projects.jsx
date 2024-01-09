@@ -8,28 +8,9 @@ import { AiFillGithub } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
 function Projects() {
 	const ref = useRef(null);
-	const isInView = useInView(ref);
-	const mainControls = useAnimation();
-	const slideControls = useAnimation();
-	useEffect(() => {
-		if (isInView) {
-			mainControls.start("visible");
-			slideControls.start("visible");
-		}
-	}, [isInView]);
+
 	return (
-		<motion.div
-			ref={ref}
-			variants={{
-				hidden: { opacity: 0, x: 75 },
-				visible: { opacity: 1, x: 0 },
-			}}
-			initial="hidden"
-			animate={mainControls}
-			transition={{ duration: 0.7, delay: 0.25 }}
-			className="  pt-[5rem]"
-			id="projects"
-		>
+		<div ref={ref} className="  pt-[5rem]" id="projects">
 			<div className="flex my-4 items-center before:border-t  before:flex-1  before:border-gray-300 after:border-t  after:flex-1  after:border-gray-300 before:border-opacity-0">
 				<h2 className="text-center text-[2rem] font-semibold mx-4 ">
 					Projects
@@ -146,7 +127,7 @@ function Projects() {
 					</div>
 				</div>
 			</div>
-		</motion.div>
+		</div>
 	);
 }
 

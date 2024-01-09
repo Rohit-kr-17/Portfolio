@@ -12,25 +12,10 @@ import img9 from "../assets/css-3.png";
 import Card from "./Card";
 function Skill() {
 	const ref = useRef(null);
-	const isInView = useInView(ref);
-	const mainControls = useAnimation();
-	const slideControls = useAnimation();
-	useEffect(() => {
-		if (isInView) {
-			mainControls.start("visible");
-			slideControls.start("visible");
-		}
-	}, [isInView]);
+
 	return (
-		<motion.div
+		<div
 			ref={ref}
-			variants={{
-				hidden: { opacity: 0, x: -75 },
-				visible: { opacity: 1, x: 0 },
-			}}
-			initial="hidden"
-			animate={mainControls}
-			transition={{ duration: 0.7, delay: 0.25 }}
 			className="h-auto pt-[10%] flex justify-center items-center"
 			id="skill"
 		>
@@ -58,7 +43,7 @@ function Skill() {
 					<Card skill="CSS" img={img9} />
 				</div>
 			</div>
-		</motion.div>
+		</div>
 	);
 }
 

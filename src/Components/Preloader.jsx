@@ -23,11 +23,7 @@ const PreLoader = () => {
 				className="bg-black h-screen w-screen top-0 fixed transition-all ease-in-out duration-500 z-[55]"
 			>
 				<div className=" flex fixed first-line justify-center h-screen w-screen items-center ">
-					<img
-						src={logo}
-						className=" h-[30%] relative  transition-all duration-500 w-auto"
-						alt=""
-					/>
+					<img src={logo} className="" alt="" />
 				</div>
 			</div>
 		);

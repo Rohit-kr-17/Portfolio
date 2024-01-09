@@ -7,7 +7,7 @@ import { SiGmail } from "react-icons/si";
 function Contacts() {
 	return (
 		<div
-			className="h-auto p-10 w-screen bg-gray-400 flex flex-col items-center justify-center"
+			className="h-auto p-10 bg-gray-400 flex flex-col items-center justify-center"
 			id="contacts"
 		>
 			<div className="tet-[2rem]">
