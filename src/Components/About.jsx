@@ -13,20 +13,20 @@ function About() {
 			scrollTrigger: {
 				trigger: ".image-container",
 				start: "top bottom",
-				end: "bottom center",
+				end: "bottom bottom",
 				scrub: true,
 			},
 		});
 
 		tl.from(".clip-path-element", {
 			scale: 1.5,
-			ease: "power3.inOut",
+			ease: "power1.inOut",
 			clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)", // Gradually reveal the image
-			duration: 2,
+			duration: 3,
 		}).to(".clip-path-element", {
-			ease: "power3.inOut",
+			ease: "power1.inOut",
 			clipPath: "polygon(0 0, 0% 0%, 0% 100%, 0% 100%)", // Start with a fully covered image
-			duration: 2,
+			duration: 3,
 		});
 	}, []);
 
