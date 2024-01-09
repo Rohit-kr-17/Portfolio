@@ -13,7 +13,7 @@ function About() {
 			scrollTrigger: {
 				trigger: ".image-container",
 				start: "top bottom",
-				end: "bottom bottom",
+				end: "bottom center",
 				scrub: true,
 			},
 		});
