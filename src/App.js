@@ -14,8 +14,8 @@ function App() {
 			<div className="App">
 				<Router>
 					<Header></Header>
-					<Skill />
-					{/* <Home /> */}
+
+					<Home />
 					<About />
 					<Skill />
 					<Projects />

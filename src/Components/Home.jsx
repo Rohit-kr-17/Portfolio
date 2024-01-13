@@ -48,7 +48,7 @@ export default function Home1() {
 		<div className="relative" ref={home}>
 			<div
 				id="intro-slider"
-				className="h-screen fixed items-center justify-center p-10 bg-gray-950 top-0 left-0 z-10 w-full flex flex-col gap-10 tracking-tight"
+				className="h-screen fixed items-center justify-center p-10 bg-gray-950 top-0 left-0 z-[11] w-full flex flex-col gap-10 tracking-tight"
 			>
 				<img src={logo} id="logo" className="h-[30%] md:h-[50%]" alt="" />
 				<div className="flex flex-row justify-center items-center flex-wrap text-white gap-5">
