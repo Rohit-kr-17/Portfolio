@@ -38,7 +38,7 @@ function About() {
 			},
 		});
 		tl.from("#heading", {
-			x: "-=500",
+			x: "+=500",
 			scale: 0,
 			opacity: 0,
 			duration: 2,

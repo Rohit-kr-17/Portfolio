@@ -15,7 +15,7 @@ function App() {
 				<Router>
 					<Header></Header>
 
-					<Home />
+					{/* <Home /> */}
 					<About />
 					<Skill />
 					<Projects />
