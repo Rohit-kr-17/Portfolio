@@ -124,7 +124,7 @@ function Projects() {
 					}}
 				>
 					<div className="flex flex-col items-center justify-center h-full w-full p-[2rem] opacity-0 bg-slate-500 bg-opacity-40 hover:opacity-100 transition-all ease-in-out duration-300  ">
-						<h2 className="text-[#fff] text- center selection:font-bold text-[2rem] ">
+						<h2 className="text-[#fff] text- center font-bold text-[1.5rem] ">
 							Product Dashboard using MERN
 						</h2>
 						<a
@@ -153,7 +153,7 @@ function Projects() {
 					}}
 				>
 					<div className="flex flex-col items-center justify-center h-full w-full p-[2rem] opacity-0 bg-slate-500 bg-opacity-40 hover:opacity-100 transition-all ease-in-out duration-300  ">
-						<h2 className="text-[#fff] text-center font-bold text-[2rem] ">
+						<h2 className="text-[#fff] text-center font-bold text-[1.5rem] ">
 							Realtor Clone using React & Firebase
 						</h2>
 						<a
@@ -182,7 +182,7 @@ function Projects() {
 					}}
 				>
 					<div className="flex flex-col items-center justify-center h-full w-full p-[2rem] opacity-0 bg-slate-500 bg-opacity-40 hover:opacity-100 transition-all ease-in-out duration-300  ">
-						<h2 className="text-[#fff] text-center font-bold text-[2rem] ">
+						<h2 className="text-[#fff] text-center font-bold text-[1.5rem] ">
 							Weather App using Javascript and weather API
 						</h2>
 						<a
@@ -211,7 +211,7 @@ function Projects() {
 					}}
 				>
 					<div className="flex flex-col items-center justify-center h-full w-full p-[2rem] opacity-0 bg-slate-500 bg-opacity-40 hover:opacity-100 transition-all ease-in-out duration-300  ">
-						<h2 className="text-[#fff] text-center  font-bold text-[2rem] ">
+						<h2 className="text-[#fff] text-center  font-bold text-[1.5rem] ">
 							Blog Portal using ExpressJS & ejs template engine
 						</h2>
 						<a
@@ -241,7 +241,7 @@ function Projects() {
 					}}
 				>
 					<div className="flex flex-col items-center justify-center h-full w-full p-[2rem] opacity-0 bg-slate-500 bg-opacity-40 hover:opacity-100 transition-all ease-in-out duration-300  ">
-						<h2 className="text-[#fff] text-center font-bold text-[1.5rem] md:text-[2rem] ">
+						<h2 className="text-[#fff] text-center font-bold text-[1.5rem] md:text-[1.5rem] ">
 							Tesla Landing Page using HTML & Tailwind CSS
 						</h2>
 						<a
