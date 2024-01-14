@@ -11,7 +11,7 @@ export default function Header() {
 
 	return (
 		<div className="top-0 fixed flex flex-row justify-between items-center w-full bg-gray-300 py-[10px] text-black shadow-md shadow-gray-500 z-[10]">
-			<div className="hidden md:inline ml-8">
+			<div className="hidden md:flex ml-8">
 				<Link
 					activeClass="active"
 					to="home"
@@ -87,7 +87,7 @@ export default function Header() {
 				</button>
 			</div>
 			{showLinks && (
-				<div className="md:hidden flex flex-col items-end w-full bg-gray-300 py-[10px] text-black">
+				<div className=" z-10 flex flex-col items-start ml-[10rem] w-full bg-gray-300 py-[10px] text-black">
 					{/* Links for smaller screens */}
 					<Link
 						activeClass="active"
