@@ -1,5 +1,5 @@
 // About.js
-import React, { useEffect, useLayoutEffect, useRef } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 import Logoimage from "../assets/About.jpg";
 import gsap from "gsap";
@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 function About() {
 	const ref = useRef(null);
+
 	useGSAP(() => {
 		const tl = gsap.timeline({
 			scrollTrigger: {
@@ -38,7 +39,7 @@ function About() {
 			},
 		});
 		tl.from("#heading", {
-			x: "+=500",
+			x: "+=50%",
 			scale: 0,
 			opacity: 0,
 			duration: 2,
@@ -64,7 +65,7 @@ function About() {
 		<div ref={ref} id="about" className="h-auto  pt-[5%]">
 			<div
 				id="heading"
-				className="font-spaceGrotesk  flex my-4 items-center after:border-t  after:flex-1  after:border-gray-300 before:border-t  before:flex-1  before:border-gray-300 before:border-opacity-0"
+				className="font-spaceGrotesk flex my-4   items-center after:border-t-[5px]   after:flex-1  after:border-gray-300 before:border-t  before:flex-1  before:border-gray-300 before:border-opacity-0"
 			>
 				<h2 className="text-center text-[3rem] font-bold mx-4 ">About</h2>
 			</div>
@@ -72,7 +73,7 @@ function About() {
 				<div className="flex relative m-5 md:ml-[10%]  overflow-clip h-auto w-[20rem]">
 					<div
 						id="image"
-						className="h-full w-full absolute bg-red-400 z-10"
+						className="h-full w-full absolute bg-black z-10"
 					></div>
 					<img
 						id="profile"
@@ -104,7 +105,8 @@ function About() {
 						</a>
 					</p>
 					<a
-						className=" flex items-center rounded-md hover:animate-bounce p-1 mt-5 bg-black hover:bg-red-400 text-white"
+						className=" flex items-center rounded-md hover:animate-none animate-bounce p-1 mt-5 bg-black hover:bg-red-400 text-white"
+						target="_blank"
 						href="https://drive.google.com/file/d/1DuufBReQPl-beFIxZ-kQ1Pe9NXpLFP6V/view?usp=drive_link"
 					>
 						<AiOutlineDownload />

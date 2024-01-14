@@ -37,7 +37,7 @@ function Skill() {
 		});
 
 		t1.from("#Technical-skills", {
-			x: "-=500",
+			x: "-=50%",
 			scale: 0,
 			opacity: 0,
 			ease: "power2",
@@ -59,7 +59,7 @@ function Skill() {
 				ease: "elastic",
 				scale: 0,
 				opacity: 0,
-				stagger: 0.5,
+				stagger: 1,
 				delay: 10,
 			}
 		);
@@ -73,7 +73,7 @@ function Skill() {
 		>
 			<div className="flex flex-col ">
 				<div id="Technical-skills">
-					<div className="flex my-4 items-center before:border-t font-spaceGrotesk before:flex-1  before:border-gray-300 after:border-t  after:flex-1  after:border-gray-300 after:border-opacity-0">
+					<div className="flex my-4 items-center before:border-t-[5px] font-spaceGrotesk before:flex-1  before:border-gray-300 after:border-t  after:flex-1  after:border-gray-300 after:border-opacity-0">
 						<h2 className="text-center text-[3rem] font-semibold mx-4 ">
 							Technical Skills
 						</h2>
